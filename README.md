@@ -7,18 +7,20 @@ Things you may want to cover:
 
 * Ruby version
 
+ruby-2.4.0 [ x86_64 ]
+
+Rails 5.2.0
+
 * System dependencies
 
 * Configuration
+After cloning this repo you should be able to run:
 
-* Database creation
+`bundle install`
+`bin/rake db:migrate`
+`lib/populate_db.rb `
 
-* Database initialization
 
 * How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+`bin/rake`
