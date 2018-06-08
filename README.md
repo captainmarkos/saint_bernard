@@ -19,6 +19,11 @@ To populate the local sqlite3 database with some sample data, run the following:
 ```
 $ lib/populate_db.rb
 ```
+### Run the app
+```
+$ rails server
+```
+In your browser, go to http://0.0.0.0:3000/emergency_transfers
 
 ### How to run the test suite
 
