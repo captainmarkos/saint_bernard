@@ -66,22 +66,5 @@ Patient.create!(first_name: "Doc",
                 diagnoses: [Diagnosis.last],
                 treatments: [Treatment.last])
 
-#PatientsAllergy.create!(allergy: Allergy.first, patient: Patient.first)
-#PatientsAllergy.create!(allergy: Allergy.last, patient: Patient.first)
-
-#PatientsDiagnosis.create(diagnosis: Diagnosis.first, patient: Patient.first)
-#PatientsDiagnosis.create(diagnosis: Diagnosis.last, patient: Patient.first)
-#PatientsDiagnosis.create(diagnosis: Diagnosis.first, patient: Patient.last)
-
-#PatientsDiagnosticProc.create(diagnostic_procedure: DiagnosticProcedure.first, patient: Patient.first)
-#PatientsDiagnosticProc.create(diagnostic_procedure: DiagnosticProcedure.last, patient: Patient.first)
-#PatientsDiagnosticProc.create(diagnostic_procedure: DiagnosticProcedure.last, patient: Patient.last)
-
-#PatientsTreatment.create!(treatment: Treatment.first, patient: Patient.first)
-#PatientsTreatment.create!(treatment: Treatment.last, patient: Patient.first)
-#PatientsTreatment.create!(treatment: Treatment.last, patient: Patient.last)
-
-#PatientsMedicationOrder.create!(medication_order: MedicationOrder.first, patient: Patient.first)
-#PatientsMedicationOrder.create!(medication_order: MedicationOrder.last, patient: Patient.last)
 
 
