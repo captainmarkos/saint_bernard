@@ -2,7 +2,7 @@
 
 Creates a simple prototype that will evaluate an existing emergency summary template, interpolating different place holders with persisted data to render the final result.
 
-### Ruby / Rails versions
+### Ruby / Rails Versions
 ```
 ruby-2.4.0 [ x86_64 ]
 
@@ -30,3 +30,10 @@ In your browser, go to http://0.0.0.0:3000/emergency_transfers
 ```
 $ bin/rake
 ```
+
+### TODO
+haml-rails instead of erb
+rubocop linter
+rspec-rails
+factory_girl_rails
+coveralls
