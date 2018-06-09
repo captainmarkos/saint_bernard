@@ -10,7 +10,7 @@ class CreatePatients < ActiveRecord::Migration[5.2]
       t.references :admission
       t.references :medication_order
       t.references :diagnostic_procedure
-      t.string :treatments
+      t.references :treatments
       t.timestamps
     end
   end

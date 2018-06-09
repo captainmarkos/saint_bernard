@@ -102,13 +102,14 @@ ActiveRecord::Schema.define(version: 2018_06_08_021705) do
     t.integer "admission_id"
     t.integer "medication_order_id"
     t.integer "diagnostic_procedure_id"
-    t.string "treatments"
+    t.integer "treatments_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["admission_id"], name: "index_patients_on_admission_id"
     t.index ["diagnostic_procedure_id"], name: "index_patients_on_diagnostic_procedure_id"
     t.index ["gender_id"], name: "index_patients_on_gender_id"
     t.index ["medication_order_id"], name: "index_patients_on_medication_order_id"
+    t.index ["treatments_id"], name: "index_patients_on_treatments_id"
   end
 
   create_table "patients_allergies", id: false, force: :cascade do |t|
