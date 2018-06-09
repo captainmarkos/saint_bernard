@@ -32,8 +32,11 @@ $ bin/rake
 ```
 
 ### TODO
+
+```
 haml-rails instead of erb
 rubocop linter
 rspec-rails
 factory_girl_rails
 coveralls
+```
