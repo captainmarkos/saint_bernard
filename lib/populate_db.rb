@@ -19,18 +19,18 @@ Diagnosis.create!(code: '1224', description: 'fractured nose')
 Diagnosis.create!(code: '2773', description: 'stomach pain')
 
 DiagnosticProcedure.create!(moment: DateTime.now, description: 'garden hose to clean wound')
-DiagnosticProcedure.create!(moment: DateTime.now, description: 'tequila straight up')
+DiagnosticProcedure.create!(moment: DateTime.now, description: 'vinegar straight up')
 
 Observation.create!(description: 'As seen on youtube', moment: DateTime.now)
-Observation.create!(description: 'During the pub crawl', moment: DateTime.now)
+Observation.create!(description: 'During the boat race', moment: DateTime.now)
 
 Symptom.create!(description: 'tired')
 Symptom.create!(description: 'tooth ache')
 
 Treatment.create!(description: 'walk a straight line', necessity: 'seriously')
-Treatment.create!(description: 'wash with vodka', necessity: 'as desired')
+Treatment.create!(description: 'wash with mineral spirits', necessity: 'as desired')
 
-MedicationOrder.create!(name: 'Metallica', dosage: 'justice for all')
+MedicationOrder.create!(name: 'Pink Floyd', dosage: 'dark side of the moon')
 MedicationOrder.create!(name: 'Bob Marley', dosage: 'no redemption')
 
 Admission.create!(moment: DateTime.now,
